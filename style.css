@@ -1,13 +1,66 @@
-section{
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+
+body{
+
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg, rgb(253,143,103), rgb(212,99,163));
+    min-height: 110vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+section {
+   
     width: 60%;
     margin: auto;
     text-align: center;
+    margin-top: 80px;
 }
 
-.inner-link{
+.inner-link {
     background-color: rgb(82, 128, 251);
+    padding: 20px;
+    transition: 0.1s ease-in;
+    border: 2px solid rgb(82, 128, 251);
+    
 }
 
-.inner-link a {
-    color: white;
+.inner-link:hover {
+    background-color: transparent;
+
+}
+
+.main-head{
+    font-size: 20px;
+}
+
+
+.sub-head{
+    font-size: 16px;
+}
+.sub-head{
+    margin: 15px 0px;
+}
+
+.link-secion{
+    margin-top: 13px;
+}
+
+.sub-sec{
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 720px) {
+    section {
+        width: 100%;
+    }
 }
