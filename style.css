@@ -1,0 +1,13 @@
+section{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.inner-link{
+    background-color: rgb(82, 128, 251);
+}
+
+.inner-link a {
+    color: white;
+}
